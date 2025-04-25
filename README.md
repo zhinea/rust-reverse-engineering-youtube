@@ -23,14 +23,14 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-reverse-engineering-youtube = "0.1.0"
+on_youtube = "0.1.0"
 ```
 
 ## Usage Example (Live Chat)
 
 ```rust
-use reverse_engineering_youtube::api::livechat::StreamChat;
-use reverse_engineering_youtube::api::livechat::StreamChatOptions;
+use on_youtube::api::livechat::StreamChat;
+use on_youtube::api::livechat::StreamChatOptions;
 
 #[tokio::main]
 async fn main() {
